@@ -1,0 +1,91 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+header{ background-image: url("../assets/img\ retangulo.jpg");
+height: 341px;
+width: 100%;
+position:relative;
+}
+
+h1{font-family: 'Rubik Mono One', sans-serif;
+font-weight: 700;
+font-size: 58px; color:white;
+position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+h1 strong{color: #f2c94c;}
+header span{
+    font-family: 'Karla', sans-serif;
+font-weight: 700;
+font-size: 170px;
+color: rgba(243, 233, 233, 0.035);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+/* div{ width: 300px;
+height: 300px;}
+
+.amarela{background-color: #f2c94c;}
+
+.vermelo{ background-color: red;}
+
+section{ 
+    display: flex;
+    width: 700px;
+    background-color: green;
+    justify-content: space-between;
+    margin: auto;
+    gap: 100px;
+
+    
+} */
+
+section ul{ 
+    width: 737px;
+    margin:64px auto;
+    list-style: none;
+}
+section li{
+
+    display: flex;
+    gap: 150px;
+    margin-bottom: 64px;
+}
+
+section h2{font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color:#17150E;
+white-space:nowrap;}
+
+
+
+
+
+h3{ font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+color:#17150E;
+margin-bottom: 16px;}
+
+
+p{font-family: 'Karla', sans-serif;
+        
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+    color:  #17150E; }
+
+
+
+
